@@ -1,0 +1,6 @@
+﻿  PointerLearing.c
+  function.c
+D:\Program\Codelearning\Codelearning\PointerLearning\Source\function.c(7,6): warning C4101: “size”: 未引用的局部变量
+D:\Program\Codelearning\Codelearning\PointerLearning\Source\function.c(39,10): warning C4098: “OneStepLenth”:“void”函数返回值
+  正在生成代码...
+  PointerLearning.vcxproj -> D:\Program\Codelearning\Codelearning\PointerLearning\PointerLearning\x64\Debug\PointerLearning.exe

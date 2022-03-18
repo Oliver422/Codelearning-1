@@ -22,3 +22,20 @@ void array_of_pointer(void)
 		printf("\n");
 	}
 }
+
+void OneStepLenth(void)
+{
+	int arr[10] = { 0 };
+	int* p1 = arr;//arr是数组首元素地址，为int型
+	int(*p2)[10] = &arr;//&arr是整个数组的地址，为int [10]型
+	//arr和&arr值一样，但类型不一样
+
+	//p1和p2是相同的指向同一位置
+	printf("%p\n", p1);//204
+	printf("%p\n", p2);//204
+	//指针类型决定指针±整数的步长
+	printf("%p\n", p1 + 1);//跳过一个整型,208
+	printf("%p\n", p2 + 1);//跳过一个数组,244
+	return 0;
+	//为了简单理解,  204,208,244表示地址
+}

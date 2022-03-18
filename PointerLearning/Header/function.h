@@ -11,6 +11,7 @@
 
 int array_size(int* array);
 void array_of_pointer(void);
+void OneStepLenth(void);
 
 
 #endif // !
